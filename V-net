@@ -1,0 +1,4 @@
+az network vnet \
+--resource group______\
+--name work-vnet \
+--subnet name work-subnet \
