@@ -7,7 +7,7 @@ az network nsg rule create \
 --name allow-HTTP \
 --protocol TCP \
 --direction inbound \
--- priority 1001 \
+--priority 1001 \
 --source-address-prefixes "*" \
 --source-port-ranges 80 \
 --source-port-ranges 443 \
